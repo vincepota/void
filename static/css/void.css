@@ -67,7 +67,7 @@ nav {
 .navbar ul { margin: 0 0 0 0 !important; }
 .navbar ul li {
 	display: inline;
-	/*line-height: 50px;*/
+	/* line-height: 0px; */
 }
 .navbar a {
 	font-weight: bold;
@@ -99,7 +99,7 @@ please email me.
 	float: left;
 }
 .navbar-brand .icon {
-	line-height: 50px;
+	line-height: 40px;
 }
 
 .navbar-links {
@@ -109,26 +109,26 @@ please email me.
 .navbar-links ul { text-align: right; }
 .navbar-links ul li {
   margin: 0 0 0 20px;
-  line-height: 50px;
+  line-height: 40px;
 }
 .navbar-links a {
   text-decoration: none;
   text-transform: uppercase;
   font-family: 'Open Sans', sans-serif;
-	font-size: 1.1rem;
-	line-height: 2rem;
+	font-size: 1.6rem;
+	line-height: 40px;
 }
 
 /* Links
 **************************************/
 a, a:visited {
+	color: #000;
 	text-decoration: none !important;
 	font-weight: bold;
 }
 
 a.icon, a:visited.icon, a:active.icon {
 	font-size: 17px;
-	color: #555;
 	font-weight: bold;
 }
 a:hover.icon, a:focus.icon { color: #222; }
@@ -161,8 +161,10 @@ h1.article-title { line-height: normal; }
 }
 .article-tags {  }
 .article-summary { clear: both; }
+
+
 .article-content { clear: both; overflow: hidden; }
-/*.article-content img { border: 1px solid #222; }*/
+
 .article-content p {
 	margin: 12px 0px 12px 0px !important;
 	font-family: 'Open Sans', sans-serif;
@@ -203,6 +205,14 @@ blockquote {
 .back-to-home { margin-bottom: 10px; }
 .center { text-align: center; }
 
+
+/*  Page design */
+
+.page-content img {
+  margin-left: 0;
+  margin-right: 0;
+	max-width: 85%;
+}
 
 /* Article Sharing - Social links at bottom
 *********************************************/
